@@ -1,0 +1,15 @@
+src/
+|-components/
+| |-Navbar.jsx
+| |-Home.jsx
+| |-Create.jsx
+| |-Update.jsx
+| |-View.jsx
+|-redux/
+| |-store.js
+| |-actions/
+| | |-userActions.js
+| |-reducers/
+| | |-userReducer.js
+|-App.jsx
+|-main.jsx

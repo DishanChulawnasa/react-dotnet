@@ -1,0 +1,33 @@
+/* Make sure navbar is fixed at the top */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* Add some padding to the body or content to avoid navbar overlap */
+body {
+  padding-top: 60px; /* Adjust this value according to your navbar height */
+}
+
+.navbar {
+  background-color: #343a40 !important; /* Ensures dark background */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.navbar .nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #f8f9fa; /* Lighter shade on hover */
+  text-decoration: underline; /* Optional hover effect */
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
